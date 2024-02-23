@@ -1,0 +1,19 @@
+{
+  "name": "analyze",
+  "version": "1.0.0",
+  "description": "",
+  "main": "analyze.js",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "pg": "^8.8.0",
+    "shared-portfolio-code": "^0.2.0"
+  },
+  "devDependencies": {
+    "jest": "^29.4.1",
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node src/scripts/analyze/analyze.js"
+  }
+}
